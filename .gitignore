@@ -1,0 +1,22 @@
+# Ignorar carpetas de modelos H2O (con todos los typos corregidos)
+notebooks/modelo_H2O_Base_Global/
+notebooks/modelo_H2O_Baese_Global/
+notebooks/modelo_H2O_Base_Global_Vars_Cat/
+notebooks/modelo_H2O_Baese_Global_Vars_Cat/
+notebooks/modelo_H2O_Lags/
+notebooks/modelo_H2O_Proxy/
+notebooks/modelo_H2O_Sin_Date/
+
+# Ignorar la carpeta de reportes de CatBoost
+**/catboost_info/
+
+# Ignorar archivos de datos pesados, binarios y outputs
+*.pkl
+*.joblib
+notebooks/output/
+output/
+
+# Archivos del sistema y python python
+__pycache__/
+*.pyc
+.DS_Store
